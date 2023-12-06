@@ -1,0 +1,13 @@
+pandas
+scipy
+scikit-learn
+dash
+dash-bootstrap-components
+dash-auth
+plotly
+dash-core-components
+dash-html-components
+dash-table
+gunicorn==20.1.0
+requests==2.21.0
+CurrencyConverter==0.17.1
