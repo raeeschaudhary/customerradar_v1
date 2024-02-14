@@ -10,15 +10,11 @@ from dash import html, dcc, dash_table
 import dash_bootstrap_components as dbc
 from dash.dependencies import Output, Input
 
-from flask import request
-
 import plotly.graph_objects as go
 from urllib.parse import unquote
 
-import numpy as np
 import pandas as pd
 import plotly.express as px
-from datetime import datetime
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
