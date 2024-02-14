@@ -74,7 +74,7 @@ main_layout = html.Div([
         dbc.NavItem(dbc.NavLink("Customers", href="customers")),
         dbc.NavItem(dbc.NavLink("Orders", href="Orders")),
     ],
-    brand="Sappi - Customer Radar Prototype",
+    brand="Customer Radar and Segmentation",
     brand_href="/",
     color="primary",
     dark=True,
